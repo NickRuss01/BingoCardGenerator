@@ -20,4 +20,14 @@ public partial class MainWindow : Window
     {
         InitializeComponent();
     }
+
+}
+
+public partial class FiveByFiveGrid : Grid
+{
+    //grid that the user's input displays onto
+    public FiveByFiveGrid()
+    {
+ 
+    }
 }
