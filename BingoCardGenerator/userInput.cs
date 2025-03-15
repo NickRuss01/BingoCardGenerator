@@ -8,6 +8,6 @@ namespace BingoCardGenerator
 {
     class userInput
     {
-
+        private string[,] cstmUserInput = { { }, { } };
     }
 }
