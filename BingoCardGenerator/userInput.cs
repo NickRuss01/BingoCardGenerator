@@ -8,7 +8,7 @@ namespace BingoCardGenerator
 {
     class userInput
     {
-        private string[,] cstmUserInput = { { }, { } };
+         string[,] cstmUserInput = new string[5, 5];
 
         public string eachSquareInput (string usrInput)
         {
@@ -30,7 +30,7 @@ namespace BingoCardGenerator
         public static string Title(string cardTitle)
         {
             Console.WriteLine("Please enter the title for your bingo card: ");
-            
+            Console.ReadLine();
             return cardTitle;
         }
     }

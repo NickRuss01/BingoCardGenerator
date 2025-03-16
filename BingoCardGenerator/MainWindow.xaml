@@ -5,12 +5,21 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:BingoCardGenerator"
         mc:Ignorable="d"
-        Title="MainWindow" Height="541" Width="800">
-    <Grid>
+        Title="MainWindow" Height="489" Width="800">
+    <Grid Background="#FFE4DADA" HorizontalAlignment="Stretch" OpacityMask="White" Width="NaN">
         <Grid.ColumnDefinitions>
-            <ColumnDefinition Width="171*"/>
-            <ColumnDefinition Width="229*"/>
+            <ColumnDefinition />
+            <ColumnDefinition />
+            <ColumnDefinition />
+            <ColumnDefinition />
+            <ColumnDefinition />
         </Grid.ColumnDefinitions>
-
+        <Grid.RowDefinitions>
+            <RowDefinition />
+            <RowDefinition />
+            <RowDefinition />
+            <RowDefinition />
+            <RowDefinition />
+        </Grid.RowDefinitions>
     </Grid>
 </Window>
