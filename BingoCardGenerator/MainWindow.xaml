@@ -5,8 +5,8 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:BingoCardGenerator"
         mc:Ignorable="d"
-        Title="MainWindow" Height="489" Width="800">
-    <Grid Background="#FFE4DADA" HorizontalAlignment="Stretch" OpacityMask="White" Width="NaN">
+        Title="MainWindow" Height="550" Width="800" FontSize="9" Background="#FFE4DADA">
+    <Grid x:Name="bingo_grid" Background="#FFE4DADA" HorizontalAlignment="Stretch" OpacityMask="White" Width="575" Height="425" VerticalAlignment="Bottom">
         <Grid.ColumnDefinitions>
             <ColumnDefinition />
             <ColumnDefinition />
@@ -21,5 +21,34 @@
             <RowDefinition />
             <RowDefinition />
         </Grid.RowDefinitions>
+        <TextBox Grid.Column="0" HorizontalAlignment="Center" Width="117"/>
+        <TextBox Grid.Column="1" HorizontalAlignment="Center" Width="117"/>
+        <TextBox Grid.Column="2" HorizontalAlignment="Center" Width="117"/>
+        <TextBox Grid.Column="3" HorizontalAlignment="Center" Width="117"/>
+        <TextBox Grid.Column="4" HorizontalAlignment="Center" Width="117"/>
+        
+        <TextBox Grid.Column="0" Grid.Row="1" HorizontalAlignment="Center" Width="117"/>
+        <TextBox Grid.Column="1" Grid.Row="1" HorizontalAlignment="Center" Width="117"/>
+        <TextBox Grid.Column="2" Grid.Row="1" HorizontalAlignment="Center" Width="117"/>
+        <TextBox Grid.Column="3" Grid.Row="1" HorizontalAlignment="Center" Width="117"/>
+        <TextBox Grid.Column="4" Grid.Row="1" HorizontalAlignment="Center" Width="117"/>
+        
+        <TextBox Grid.Column="0" Grid.Row="2" HorizontalAlignment="Center" Width="117"/>
+        <TextBox Grid.Column="1" Grid.Row="2" HorizontalAlignment="Center" Width="117"/>
+        <TextBox Grid.Column="2" Grid.Row="2" HorizontalAlignment="Center" Width="117"/>
+        <TextBox Grid.Column="3" Grid.Row="2" HorizontalAlignment="Center" Width="117"/>
+        <TextBox Grid.Column="4" Grid.Row="2" HorizontalAlignment="Center" Width="117"/>
+
+        <TextBox Grid.Column="0" Grid.Row="3" HorizontalAlignment="Center" Width="117"/>
+        <TextBox Grid.Column="1" Grid.Row="3" HorizontalAlignment="Center" Width="117"/>
+        <TextBox Grid.Column="2" Grid.Row="3" HorizontalAlignment="Center" Width="117"/>
+        <TextBox Grid.Column="3" Grid.Row="3" HorizontalAlignment="Center" Width="117"/>
+        <TextBox Grid.Column="4" Grid.Row="3" HorizontalAlignment="Center" Width="117"/>
+
+        <TextBox Grid.Column="0" Grid.Row="4" HorizontalAlignment="Center" Width="117"/>
+        <TextBox Grid.Column="1" Grid.Row="4" HorizontalAlignment="Center" Width="117"/>
+        <TextBox Grid.Column="2" Grid.Row="4" HorizontalAlignment="Center" Width="117"/>
+        <TextBox Grid.Column="3" Grid.Row="4" HorizontalAlignment="Center" Width="117"/>
+        <TextBox Grid.Column="4" Grid.Row="4" HorizontalAlignment="Center" Width="117"/>
     </Grid>
 </Window>
